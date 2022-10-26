@@ -1,4 +1,4 @@
-Mastodon Share Buttons
+Fediverse Share Buttons
 ===
 
 Share buttons for Mastodon that work on static pages. The page title and URL are pulled from `document.title` and `location.href`, copying the behavior of www.addtoany.com. I've included two options: one for embedding all additional JS/CSS (for security reasons), and another for linking to the JS/CSS hosted here via https://rawgit.com.
