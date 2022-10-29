@@ -6,19 +6,28 @@
 
 
 <p align="center">
-    <a href="https://github.com/badges/Uden-AI/fediverse-share" alt="License">
+    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/LICENSE" alt="License">
         <img src="https://img.shields.io/github/license/Uden-AI/fediverse-share" /></a>
     <a href="https://github.com/Uden-AI/fediverse-share/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/Uden-AI/fediverse-share" /></a>
-    <a href="https://github.com/badges/Uden-AI/fediverse-share" alt="Activity">
+    <a href="https://github.com/Uden-AI/fediverse-share/graphs/commit-activity" alt="Activity">
         <img src="https://img.shields.io/github/commit-activity/m/Uden-AI/fediverse-share" /></a>
     <br>
     <b>Put Buttons That Directly Share Your Website to the Fediverse Everywhere!</b>
 </p>
 
 
-===
+## What is Fediverse Share? How does it Work?
+It is an HTML+CSS+JS-Button that can be put on any webpage that any user can click on, enter the Fediverse instance of their choice, then be teleported to that instance with text specified by YOU. Essentially the share button for Twitter but for the whole Fediverse! You can copy the code that is found inside of this repository, modify the text you want to be posted, such as:
+> *Check out The Internet Portal, a website that randomly takes you to one out of over 200 million websites on the internet! TheInternetPortal.net #theinternetportal*
+<br>
+Then, if a user presses the button, enters the domain of an instance they are logged into (*or can login to*), they will immediately see this:
 
+![](screenshot-in-pleroma-soapbox-full.png)
+*Example of a Pleroma+Soapbox-FE Instance of this button sharing the specified text. Instance displayed: social.uden.ai*
+
+## Where does it work?
+Incomplete List: Any Mastodon, Pleroma (Soapbox-FE OR Pleroma-FE), Friendica, GNU Social instance (*and many others*) support this feature!
 
 https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg
 https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal_(mono_version).svg
@@ -34,7 +43,7 @@ Contributions are welcome!
 
 ![](screenshot.png)
 
-Demo: http://grayleonard.com/mastodon-share/demo.html
+Demo: https://uden.ai/fediverse-share/demo.html
 
 Instructions
 ===
