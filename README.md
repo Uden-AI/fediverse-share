@@ -1,5 +1,29 @@
-Fediverse Share Buttons
+<p align="center">
+    <a href="https://theinternetportal.net/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Uden-Ai/TheInternetPortal/master/website/assets/images/logo-white.svg?sanitize=true"
+        height="130"></a>
+</p>
+
+<p align="center">
+    <a href="https://github.com/badges/Uden-AI/TheInternetPortal" alt="License">
+        <img src="https://img.shields.io/github/license/Uden-AI/TheInternetPortal" /></a>
+    <a href="https://github.com/Uden-AI/TheInternetPortal/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/Uden-AI/TheInternetPortal" /></a>
+    <a href="https://github.com/badges/Uden-AI/TheInternetPortal" alt="Activity">
+        <img src="https://img.shields.io/github/commit-activity/m/Uden-AI/TheInternetPortal" /></a>
+    <br>
+    <b>Your One Way Ticket to the Madness of the Internet</b>
+</p>
+
+
 ===
+
+
+https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg
+https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal_(mono_version).svg
+
+https://codeberg.org/meztli/fedishare
+https://github.com/distributopia/share-connect-support
+
 
 Share buttons for Mastodon that work on static pages. The page title and URL are pulled from `document.title` and `location.href`, copying the behavior of www.addtoany.com. I've included two options: one for embedding all additional JS/CSS (for security reasons), and another for linking to the JS/CSS hosted here via https://rawgit.com.
 
