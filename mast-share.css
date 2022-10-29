@@ -86,13 +86,13 @@
 	vertical-align: top;
 	font-family: sans-serif;
 	font-weight: 700;
-	font-size: 13px;
-	
+	font-size: 14px;
 }
 
 .mast-share img {
 	max-height: 19px;
 	margin-top: -2px;
+	margin-left: -0.5px;
 }
 
 .mast-instance input[name="mast-instance-input"] {
@@ -152,4 +152,3 @@
 .mast-share button:hover {
 	color: #3087d5;
 }
-
