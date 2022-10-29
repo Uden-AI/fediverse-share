@@ -1,7 +1,9 @@
 <p align="center">
     <a href="https://uden.ai/fediverse-share/demo.html" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Uden-Ai/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-green-on-top.svg?sanitize=true"
         height="130"></a>
+<h1 align="center">Share</h1>
 </p>
+
 
 <p align="center">
     <a href="https://github.com/badges/Uden-AI/fediverse-share" alt="License">
@@ -11,7 +13,7 @@
     <a href="https://github.com/badges/Uden-AI/fediverse-share" alt="Activity">
         <img src="https://img.shields.io/github/commit-activity/m/Uden-AI/fediverse-share" /></a>
     <br>
-    <b>Allow users to shar your blog/website/anything online to the Fediverse!</b>
+    <b>Put Buttons That Directly Share Your Website to the Fediverse Everywhere!</b>
 </p>
 
 
@@ -23,6 +25,7 @@ https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal_(mono_version).s
 
 https://codeberg.org/meztli/fedishare
 https://github.com/distributopia/share-connect-support
+https://sharetomastodon.github.io/about/
 
 
 Share buttons for Mastodon that work on static pages. The page title and URL are pulled from `document.title` and `location.href`, copying the behavior of www.addtoany.com. I've included two options: one for embedding all additional JS/CSS (for security reasons), and another for linking to the JS/CSS hosted here via https://rawgit.com.
