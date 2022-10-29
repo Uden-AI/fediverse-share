@@ -21,6 +21,7 @@
 It is an HTML+CSS+JS-Button that can be put on any webpage that any user can click on, enter the Fediverse instance of their choice, then be teleported to that instance with text specified by YOU. Essentially the share button for Twitter but for the whole Fediverse! You can copy the code that is found inside of this repository, modify the text you want to be posted, such as:
 > *Check out The Internet Portal, a website that randomly takes you to one out of over 200 million websites on the internet! TheInternetPortal.net #theinternetportal*
 <br>
+
 Then, if a user presses the button, enters the domain of an instance they are logged into (*or can login to*), they will immediately see this:
 
 ![](screenshot-in-pleroma-soapbox-full.png)
@@ -43,7 +44,7 @@ Contributions are welcome!
 
 ![](screenshot.png)
 
-Demo: https://uden.ai/fediverse-share/demo.html
+Demo: https://uden.ai/fediverse-share/
 
 Instructions
 ===
