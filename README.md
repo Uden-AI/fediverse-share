@@ -1,17 +1,17 @@
 <p align="center">
-    <a href="https://theinternetportal.net/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Uden-Ai/TheInternetPortal/master/website/assets/images/logo-white.svg?sanitize=true"
+    <a href="https://uden.ai/fediverse-share/demo.html" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Uden-Ai/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-green-on-top.svg?sanitize=true"
         height="130"></a>
 </p>
 
 <p align="center">
-    <a href="https://github.com/badges/Uden-AI/TheInternetPortal" alt="License">
-        <img src="https://img.shields.io/github/license/Uden-AI/TheInternetPortal" /></a>
-    <a href="https://github.com/Uden-AI/TheInternetPortal/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/Uden-AI/TheInternetPortal" /></a>
-    <a href="https://github.com/badges/Uden-AI/TheInternetPortal" alt="Activity">
-        <img src="https://img.shields.io/github/commit-activity/m/Uden-AI/TheInternetPortal" /></a>
+    <a href="https://github.com/badges/Uden-AI/fediverse-share" alt="License">
+        <img src="https://img.shields.io/github/license/Uden-AI/fediverse-share" /></a>
+    <a href="https://github.com/Uden-AI/fediverse-share/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/Uden-AI/fediverse-share" /></a>
+    <a href="https://github.com/badges/Uden-AI/fediverse-share" alt="Activity">
+        <img src="https://img.shields.io/github/commit-activity/m/Uden-AI/fediverse-share" /></a>
     <br>
-    <b>Your One Way Ticket to the Madness of the Internet</b>
+    <b>Allow users to shar your blog/website/anything online to the Fediverse!</b>
 </p>
 
 
