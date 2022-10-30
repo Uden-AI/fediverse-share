@@ -58,7 +58,7 @@ Then, if a user presses this button (*example of a button, the logo exists in th
 Then enters the domain of an instance they are logged into (*or can login to*), they will immediately see this:
 <br>
 <br>
-![](screenshot-in-pleroma-soapbox-full.png)
+[![](screenshot-in-pleroma-soapbox-full.png)](https://social.uden.ai/)
 *Example of a Pleroma+Soapbox-FE Instance of this button sharing the specified text. Instance displayed: social.uden.ai*
 
 <br>
