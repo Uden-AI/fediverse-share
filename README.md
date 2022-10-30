@@ -236,9 +236,30 @@ The logos inside of this repository, that build on top of the original ones, are
 
 I have to inform you that neither I, nor the company Uden AI, are endorsed by Eukombos (*the original creator of the Fedi-Logos*) in the making of these logos. They are not aware of me making them, hence are also not in support or against the creation of them. 
 
-## Original Fediverse-Logos by Eukombos
+## Original Fediverse Logos by Eukombos
+
+
+<p align="center">
+    <a href="https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg/" alt="Fediverse Logo Color">
+        <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/- Original -/fediverse-logo-short.svg?sanitize=true" height="400" /></a>
+    <a href="https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal_(mono_version).svg" alt="Fediverse Logo Mono (Black)">
+        <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/- Original -/fediverse-logo-mono-black-short.svg?sanitize=true" height="400" /></a>
+</p>
+
+<br>
+<br>
 
 ## Newly Made Fediverse Logos by Erik Uden
+
+<p align="center">
+    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/logotype-full-large-color-white-text-fedi-logo-foreground-normal-simplified.svg" alt="Fedi Logo Large Color White Text Fedi Logo Foreground Normal Simplified">
+        <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/logotype-full-large-color-white-text-fedi-logo-foreground-normal-simplified.svg?sanitize=true" height="80" /></a>
+    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-simplified.svg" alt="Fedi Logo Full Large Color White Text Fedi Logo Foreground Normal Yellow On Top Simplified">
+        <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-simplified.svg?sanitize=true" height="80" /></a>
+    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-green-on-top-simplified.svg" alt="Fedi Logo Full Large Color White Text Fedi Logo Foreground Normal Yellow On Top Green On Top Simplified">
+    <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-green-on-top-simplified.svg?sanitize=true" height="80" /></a>
+</p>
+
 
 <br>
 <br>
