@@ -69,13 +69,13 @@ Then enters the domain of an instance they are logged into (*or can login to*), 
 # How does Fediverse Share Work?
 
 The page title and URL are pulled from `document.title` and `location.href`, copying the behavior of www.addtoany.com. We've included three options: 
-- [The First](#the-first-embed-without-external-resources) for embedding all additional CSS/JS in the one piece of code that you can copy (for security reasons), 
-- [The Second](#the-second-to-embed-with-external-resources) for linking to the JS/CSS hosted here via [GitHub Pages](https://pages.github.com/), 
-- [The Third](#the-third-download-the-css-and-js-files-and-host-them-yourself) for simply downloading the CSS/JS from this repository and putting it in your websites root and linking to it via the `<link rel="stylesheet" href="fedi-share.css">` tag, to make it easily modifiable in the future! fedi-share.min.css, as well as fedi-share.min.js were created using the [CSS Minifier](https://cssminifier.org/).
-
-**Contributions are welcome!**
+- [The First](#the-first-embed-without-external-resources) for embedding all additional CSS/JS in the one piece of code that you can copy (for security reasons)
+- [The Second](#the-second-to-embed-with-external-resources) for linking to the JS/CSS hosted here via [GitHub Pages](https://pages.github.com/). The files fedi-share.min.css, as well as fedi-share.min.js were created using the [CSS Minifier](https://cssminifier.org/).
+- [The Third](#the-third-download-the-css-and-js-files-and-host-them-yourself) for simply downloading the CSS/JS from this repository and putting it in your websites root and linking to it via the `<link rel="stylesheet" href="fedi-share.css">` tag, to make it easily modifiable in the future!
 
 Live-Demo: https://uden.ai/fediverse-share/
+
+**Contributions are welcome!**
 
 <br>
 <br>
@@ -224,6 +224,7 @@ Advantages/Caveats:
 - Most Secure
 - Slowest to load
 
+[coming soon]
 
 <br>
 <br>
