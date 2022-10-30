@@ -31,9 +31,9 @@
 - [Similar Projects To Compare To](#similar-projects-to-compare-to)
 - [What does Fediverse Share Work With?](#what-does-fediverse-share-work-with)
 - [How To Embed a Fediverse Share Button](#how-to-embed-a-fediverse-share-button)
-  - [Embed Without External Resources](#)
-  - [Embed With External Resources (GitHub Pages)](#)
-  - [Download JS/CSS and Keep as Separate Files](#)
+  - [Embed Without External Resources](#the-first-embed-without-external-resources)
+  - [Embed With External Resources (GitHub Pages)](#the-second-to-embed-with-external-resources)
+  - [Download JS/CSS and Keep as Separate Files](#the-third-download-the-css-and-js-files-and-host-them-yourself)
 - [Licenses](#licenses)
   - [AGPLv3.0](https://github.com/Uden-AI/fediverse-share/blob/master/LICENSE) for the Code
   - [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) for the images made by me
@@ -55,7 +55,7 @@ Then, if a user presses this button (*example of a button, the logo exists in th
 
 [![](screenshot.png)](https://uden.ai/fediverse-share)
 
-enters the domain of an instance they are logged into (*or can login to*), they will immediately see this:
+Then enters the domain of an instance they are logged into (*or can login to*), they will immediately see this:
 <br>
 <br>
 ![](screenshot-in-pleroma-soapbox-full.png)
@@ -63,13 +63,15 @@ enters the domain of an instance they are logged into (*or can login to*), they 
 
 <br>
 <br>
+<br>
+<br>
 
 # How does Fediverse Share Work?
 
 The page title and URL are pulled from `document.title` and `location.href`, copying the behavior of www.addtoany.com. We've included three options: 
-- [The First]() for embedding all additional CSS/JS in the one piece of code that you can copy (for security reasons), 
-- [The Second]() for linking to the JS/CSS hosted here via [GitHub Pages](https://pages.github.com/), 
-- [The Third]() for simply downloading the CSS/JS from this repository and putting it in your websites root and linking to it via the `<link rel="stylesheet" href="fedi-share.css">` tag, to make it easily modifiable in the future! fedi-share.min.css, as well as fedi-share.min.js were created using the [CSS Minifier](https://cssminifier.org/).
+- [The First](#the-first-embed-without-external-resources) for embedding all additional CSS/JS in the one piece of code that you can copy (for security reasons), 
+- [The Second](#the-second-to-embed-with-external-resources) for linking to the JS/CSS hosted here via [GitHub Pages](https://pages.github.com/), 
+- [The Third](#the-third-download-the-css-and-js-files-and-host-them-yourself) for simply downloading the CSS/JS from this repository and putting it in your websites root and linking to it via the `<link rel="stylesheet" href="fedi-share.css">` tag, to make it easily modifiable in the future! fedi-share.min.css, as well as fedi-share.min.js were created using the [CSS Minifier](https://cssminifier.org/).
 
 **Contributions are welcome!**
 
