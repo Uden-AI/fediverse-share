@@ -13,7 +13,10 @@
     <a href="https://github.com/Uden-AI/fediverse-share/graphs/commit-activity" alt="Activity">
         <img src="https://img.shields.io/github/commit-activity/m/Uden-AI/fediverse-share" /></a>
     <br>
-    <b>Put Buttons That Directly Share Your Website to the Fediverse Everywhere!</b>
+    <b>Put Buttons That Directly Share Your Website to the Fediverse Everywhere!</b>   
+    <br>
+    <i>Made for The Internet Portal</i>
+    <br>
 </p>
 
 
