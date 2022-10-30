@@ -26,7 +26,7 @@
   - [Logo-Gallery](#logo-gallery)
     - [Original Fediverse Logos by Eukombos](#original-fediverse-logos-by-eukombos)
     - [Newly Made Fediverse Logos by Erik Uden](#newly-made-fediverse-logos-by-erik-uden)
-- [What is Fediverse Share?](https://github.com/Uden-AI/fediverse-share/edit/master/README.md#what-is-fediverse-share)
+- [What is Fediverse Share?](#what-is-fediverse-share)
 - [How does Fediverse Share Work?](#how-does-fediverse-share-work)
 - [Similar Projects To Compare To](#similar-projects-to-compare-to)
 - [What does Fediverse Share Work With?](#what-does-fediverse-share-work-with)
