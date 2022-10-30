@@ -264,8 +264,8 @@ The following are the different modifiers that differentiate each of the logos:
 - Normal/Spun-F: Changes whether the "F" in "Fediverse" is horizontally aligned or slightly spun clockwise to match the original logo
 - Simplified: Every logo has a simplified version, which doesn't differ visually, is just a lot smaller in terms of filesize.
 
-Hence, an example for what a filename would be:
-`logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-simplified.svg` <br>
+Hence, an example for what a filename would be: <br>
+`logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-green-on-top-simplified.svg` <br>
 *This is the logo used at the top of this repository, and also the third logo from the left below.*
 
 
@@ -273,8 +273,9 @@ Hence, an example for what a filename would be:
 <br>
 <br>
 
-
-<p align="center">
+`logotype-full-large-color-white-text-fedi-logo-foreground-`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `normal` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `-yellow-on-top` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `-green-on-top`
+<p align="left">
     <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/logotype-full-large-color-white-text-fedi-logo-foreground-normal-simplified.svg" alt="Fedi Logo Large Color White Text Fedi Logo Foreground Normal Simplified">
         <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/logotype-full-large-color-white-text-fedi-logo-foreground-normal-simplified.svg?sanitize=true" height="60" /></a>
     <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-simplified.svg" alt="Fedi Logo Full Large Color White Text Fedi Logo Foreground Normal Yellow On Top Simplified">
@@ -286,14 +287,16 @@ Hence, an example for what a filename would be:
 
 <br>
 
-<p align="center">
-    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-simplified.svg" alt="Fedi Logo Large Color White Text Fedi Logo Foreground Normal Simplified">
+`logotype-full-large-color-white-text-fedi-logo-foreground-`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `spun-f` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `-yellow-on-top` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `-green-on-top`
+<p align="left">
+    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-simplified.svg" alt="Fedi Logo Large Color White Text Fedi Logo Foreground Spun-F Simplified">
         <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-simplified.svg?sanitize=true" height="60" />
     </a>
-    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/Yellow-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-yellow-on-top-simplified.svg" alt="Fedi Logo Full Large Color White Text Fedi Logo Foreground Normal Yellow On Top Simplified">
+    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/Yellow-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-yellow-on-top-simplified.svg" alt="Fedi Logo Full Large Color White Text Fedi Logo Foreground Spun-F Yellow On Top Simplified">
         <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/Yellow-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-yellow-on-top-simplified.svg?sanitize=true" height="60" />
    </a>
-   <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-yellow-on-top-green-on-top-simplified.svg" alt="Fedi Logo Full Large Color White Text Fedi Logo Foreground Normal Yellow On Top Green On Top Simplified">
+   <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-yellow-on-top-green-on-top-simplified.svg" alt="Fedi Logo Full Large Color White Text Fedi Logo Foreground Spun-F Yellow On Top Green On Top Simplified">
        <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/0a165d3f2ed16a59627a1af68516b555c780ecf6/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-yellow-on-top-green-on-top-simplified.svg?sanitize=true" height="60" />
    </a>
 </p>
