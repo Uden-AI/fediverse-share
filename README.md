@@ -22,7 +22,7 @@
 
 ## This Repo Hosts:
 
-- 48+ Newly Made Fediverse-Logos That Can be Used for the Buttons (*but also anything else!*)
+- 32+ Newly Made Fediverse-Logos That Can be Used for the Buttons (*but also anything else!*)
   - [Logo-Gallery](#logo-gallery)
     - [Original Fediverse Logos by Eukombos](#original-fediverse-logos-by-eukombos)
     - [Newly Made Fediverse Logos by Erik Uden](#newly-made-fediverse-logos-by-erik-uden)
@@ -239,9 +239,8 @@ I have to inform you that neither I, nor the company Uden AI, are endorsed by Eu
 
 ## Original Fediverse Logos by Eukombos
 
-
 <p align="center">
-    <a href="https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg/" alt="Fediverse Logo Color">
+    <a href="https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg" alt="Fediverse Logo Color">
         <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/- Original -/fediverse-logo-short.svg?sanitize=true" height="400" /></a>
     <a href="https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal_(mono_version).svg" alt="Fediverse Logo Mono (Black)">
         <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/- Original -/fediverse-logo-mono-black-short.svg?sanitize=true" height="400" /></a>
@@ -252,6 +251,29 @@ I have to inform you that neither I, nor the company Uden AI, are endorsed by Eu
 
 ## Newly Made Fediverse Logos by Erik Uden
 
+Within the directory "[/Logos/Large](https://github.com/Uden-AI/fediverse-share/tree/master/Logos/Large)" you have 64 SVG files, of which are 32 individual **newly made logos** directly as Inkscape exported them, which are better if you wish to edit them, however, the other 32 are the simplified versions of that logo made using [SVGMinify](https://www.svgminify.com/), which are better for using them for online webpages, as they are ~70% smaller in filesize, but much harder to edit / work with. 
+
+These logos were created using the original Fediverse logos by [Eukombos](https://commons.wikimedia.org/wiki/User:Eukombos), edited with Inkscape. The font used for the word "Fediverse" is Liberation Sans **Bold** with the *Path* => *Outset* applied once. The "F" and the dot on the "i" are both modified to have partially round corners.
+
+The following are the different modifiers that differentiate each of the logos:
+- Color/Mono: Either the Fediverse-Logos has all its colors, or is either black/white (*depending on the font-color*), the former is best for any website, the latter is good for simplified websites
+- Black-Text/White-Text: Either black or white font for the word "Fediverse"
+- Fedi-Logo-Background/Fedi-Logo-Foreground: Changes whether the Fediverse-Logo is above any letter other than "F" or in the background.
+  - Foreground-Only: Yellow-On-Top: Changes whether the yellow line in the original Fediverse logo is on top of the "F" making it look like the F is entangled in the logo
+  - Foreground-Only: Yellow-On-Top-only: Green-On-Top: Changes whether the green line in the original Fediverse logo is on top of the "F" making it look like the F is entangled in the logo
+- Normal/Spun-F: Changes whether the "F" in "Fediverse" is horizontally aligned or slightly spun clockwise to match the original logo
+- Simplified: Every logo has a simplified version, which doesn't differ visually, is just a lot smaller in terms of filesize.
+
+Hence, an example for what a filename would be:
+`logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-simplified.svg` <br>
+*This is the logo used at the top of this repository, and the third logo from the left below.*
+
+
+
+
+<br>
+<br>
+
 <p align="center">
     <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/logotype-full-large-color-white-text-fedi-logo-foreground-normal-simplified.svg" alt="Fedi Logo Large Color White Text Fedi Logo Foreground Normal Simplified">
         <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/logotype-full-large-color-white-text-fedi-logo-foreground-normal-simplified.svg?sanitize=true" height="60" /></a>
@@ -260,6 +282,90 @@ I have to inform you that neither I, nor the company Uden AI, are endorsed by Eu
     <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-green-on-top-simplified.svg" alt="Fedi Logo Full Large Color White Text Fedi Logo Foreground Normal Yellow On Top Green On Top Simplified">
     <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-green-on-top-simplified.svg?sanitize=true" height="60" /></a>
 </p>
+
+<br>
+
+
+<p align="center">
+    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/logotype-full-large-color-white-text-fedi-logo-foreground-normal-simplified.svg" alt="Fedi Logo Large Color White Text Fedi Logo Foreground Normal Simplified">
+        <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/logotype-full-large-color-white-text-fedi-logo-foreground-normal-simplified.svg?sanitize=true" height="60" /></a>
+    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-simplified.svg" alt="Fedi Logo Full Large Color White Text Fedi Logo Foreground Normal Yellow On Top Simplified">
+        <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-simplified.svg?sanitize=true" height="60" /></a>
+    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-green-on-top-simplified.svg" alt="Fedi Logo Full Large Color White Text Fedi Logo Foreground Normal Yellow On Top Green On Top Simplified">
+    <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-green-on-top-simplified.svg?sanitize=true" height="60" /></a>
+</p>
+
+
+<br>
+
+<p align="center">
+    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-simplified.svg" alt="Fedi Logo Large Color White Text Fedi Logo Foreground Normal Simplified">
+        <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-simplified.svg?sanitize=true" height="60" />
+    </a>
+    <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/Yellow-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-yellow-on-top-simplified.svg" alt="Fedi Logo Full Large Color White Text Fedi Logo Foreground Normal Yellow On Top Simplified">
+        <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/Yellow-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-yellow-on-top-simplified.svg?sanitize=true" height="60" />
+   </a>
+   <a href="https://github.com/Uden-AI/fediverse-share/blob/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-yellow-on-top-green-on-top-simplified.svg" alt="Fedi Logo Full Large Color White Text Fedi Logo Foreground Normal Yellow On Top Green On Top Simplified">
+       <img src="https://raw.githubusercontent.com/Uden-AI/fediverse-share/0a165d3f2ed16a59627a1af68516b555c780ecf6/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Spun-F/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-spun-f-yellow-on-top-green-on-top-simplified.svg?sanitize=true" height="60" />
+   </a>
+</p>
+
+<br>
+<br>
+<br>
+
+
+All the different files in their respective directories:
+```
+/Large
+├── Color
+│   ├── Black-Text
+│   │   ├── Fedi-Logo-Background
+│   │   │   ├── Normal
+│   │   │   └── Spun-F
+│   │   └── Fedi-Logo-Foreground
+│   │       ├── Normal
+│   │       │   └── Yellow-On-Top
+│   │       │       └── Green-On-Top
+│   │       └── Spun-F
+│   │           └── Yellow-On-Top
+│   │               └── Green-On-Top
+│   └── White-Text
+│       ├── Fedi-Logo-Background
+│       │   ├── Normal
+│       │   └── Spun-F
+│       └── Fedi-Logo-Foreground
+│           ├── Normal
+│           │   └── Yellow-On-Top
+│           │       └── Green-On-Top
+│           └── Spun-F
+│               └── Yellow-On-Top
+│                   └── Green-On-Top
+└── Mono
+    ├── Black-Text
+    │   ├── Fedi-Logo-Background
+    │   │   ├── Normal
+    │   │   └── Spun-F
+    │   └── Fedi-Logo-Foreground
+    │       ├── Normal
+    │       │   └── Yellow-On-Top
+    │       │       └── Green-On-Top
+    │       └── Spun-F
+    │           └── Yellow-On-Top
+    │               └── Green-On-Top
+    └── White-Text
+        ├── Fedi-Logo-Background
+        │   ├── Normal
+        │   └── Spun-F
+        └── Fedi-Logo-Foreground
+            ├── Normal
+            │   └── Yellow-On-Top
+            │       └── Green-On-Top
+            └── Spun-F
+                └── Yellow-On-Top
+                    └── Green-On-Top
+```
+
 
 
 <br>
