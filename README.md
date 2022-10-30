@@ -17,30 +17,31 @@
 </p>
 
 
-## This repo hosts:
+## This Repo Hosts:
 
 - 48+ Newly Made Fediverse-Logos That Can be Used for the Buttons (*but also anything else!*)
   - [Logo-Gallery](#logo-gallery)
     - [Original Fediverse Logos by Eukombos](#original-fediverse-logos-by-eukombos)
     - [Newly Made Fediverse Logos by Erik Uden](#newly-made-fediverse-logos-by-erik-uden)
-- What is Fediverse Share?
-- How does it Work?
-- Similar Projects To Compare To
-- Fediverse Software With Which Fediverse-Share Works
-- How To Embed a Fediverse-Share Button
+- [What is Fediverse Share?](https://github.com/Uden-AI/fediverse-share/edit/master/README.md#what-is-fediverse-share)
+- [How does Fediverse Share Work?](#how-does-fediverse-share-work)
+- [Similar Projects To Compare To](#similar-projects-to-compare-to)
+- [What does Fediverse Share Work With?](#what-does-fediverse-share-work-with)
+- [How To Embed a Fediverse Share Button](#how-to-embed-a-fediverse-share-button)
   - [Embed Without External Resources](#)
   - [Embed With External Resources (GitHub Pages)](#)
   - [Download JS/CSS and Keep as Separate Files](#)
-- [Licenses](#license)
+- [Licenses](#licenses)
   - [AGPLv3.0](https://github.com/Uden-AI/fediverse-share/blob/master/LICENSE) for the Code
   - [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) for the images made by me
-  - [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en) for the images made by [Eukombos](https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg)
+  - [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en) for the images made by [Eukombos](https://commons.wikimedia.org/wiki/User:Eukombos)
+
+<br>
+<br>
 
 
-
-
-## What is Fediverse Share? How does it Work?
-It is an HTML+CSS+JS-Button that can be put on **any** webpage that any user can click on, enter the Fediverse instance of their choice, then be teleported to that instance posting text specified by YOU. Essentially the share button for Twitter but for the whole Fediverse! You can copy the code that is found inside of this repository, modify the text you want to be posted, such as:
+# What is Fediverse Share?
+Share buttons for the Fediverse that work on static pages. It is an HTML+CSS+JS-Button that can be put on **any** webpage that any user can click on, enter the Fediverse instance of their choice, then be teleported to that instance posting text specified by YOU. Essentially the share button for Twitter but for the whole Fediverse! You can copy the code that is found inside of this repository, modify the text you want to be posted, such as:
 > *Check out The Internet Portal, a website that randomly takes you to one out of over 200 million websites on the internet! TheInternetPortal.net #theinternetportal*
 <br>
 
@@ -49,6 +50,7 @@ Then, if a user presses this button (*example of a button, the logo exists in th
 <br>
 
 ![](screenshot.png)
+
 enters the domain of an instance they are logged into (*or can login to*), they will immediately see this:
 <br>
 <br>
@@ -56,29 +58,90 @@ enters the domain of an instance they are logged into (*or can login to*), they 
 *Example of a Pleroma+Soapbox-FE Instance of this button sharing the specified text. Instance displayed: social.uden.ai*
 
 <br>
-Share buttons for the Fediverse that work on static pages. The page title and URL are pulled from `document.title` and `location.href`, copying the behavior of www.addtoany.com. We've included three options: the first for embedding all additional CSS/JS in the one piece of code that you can copy (for security reasons), the second for linking to the JS/CSS hosted here via [GitHub Pages](https://pages.github.com/), and the third for simply downloading the CSS/JS from this repository and putting it in your websites root and linking to it via the `<link rel="stylesheet" href="fedi-share.css">` tag, to make it easily modifiable in the future! fedi-share.min.css, as well as fedi-share.min.js were created using the [CSS Minifier](https://cssminifier.org/).
 
-Contributions are welcome!
+# How does Fediverse Share Work?
 
+The page title and URL are pulled from `document.title` and `location.href`, copying the behavior of www.addtoany.com. We've included three options: the first for embedding all additional CSS/JS in the one piece of code that you can copy (for security reasons), the second for linking to the JS/CSS hosted here via [GitHub Pages](https://pages.github.com/), and the third for simply downloading the CSS/JS from this repository and putting it in your websites root and linking to it via the `<link rel="stylesheet" href="fedi-share.css">` tag, to make it easily modifiable in the future! fedi-share.min.css, as well as fedi-share.min.js were created using the [CSS Minifier](https://cssminifier.org/).
 
+**Contributions are welcome!**
 
 Demo: https://uden.ai/fediverse-share/
 
+<br>
+<br>
+
+# What does Fediverse Share Work With?
+
+- [ ] [Bonfire](https://bonfirenetworks.org/)
+- [x] [Diaspora](https://diasporafoundation.org/)
+- [x] [Ecko](https://magicstone.dev/) 
+- [ ] [Epicyon](https://epicyon.net/)
+- [ ] [Flockingbird](https://flockingbird.social/)
+- [x] [Friendica](https://friendi.ca/)
+- [x] [Glitch](https://glitch-soc.github.io/docs/) 
+- [x] [Gnusocial](https://gnusocial.network/)
+- [x] [GoToSocial](https://docs.gotosocial.org/en/latest/)
+- [x] [Groundpolis](https://github.com/Groundpolis/Groundpolis) 
+- [x] [Hometown](https://github.com/hometown-fork/hometown) 
+- [ ] [Honk](https://humungus.tedunangst.com/r/honk)
+- [x] [Hubzilla](https://hubzilla.org/)
+- [x] [Kepi](https://gitlab.com/marnanel/chapeau)
+- [ ] [Ktistec](https://github.com/toddsundsted/ktistec)
+- [x] [Lemmy](https://join-lemmy.org/)
+- [x] [Mastodon](https://joinmastodon.org/)
+- [x] [Misskey](https://misskey-hub.net/en/) 
+- [x] [Misty](https://zotlabs.com/misty/) 
+- [ ] [Mobilizon](https://joinmobilizon.org/en/)
+- [ ] [NextCloud](https://nextcloud.com/)
+- [x] [Osada](https://codeberg.org/zot/osada) 
+- [ ] [Pjuu](https://pjuu.com/) *1
+- [x] [Pleroma](https://pleroma.social/)
+- [ ] [Pump.io](http://pump.io/) *2
+- [ ] [Smithereen](https://github.com/grishka/Smithereen)
+- [x] [Socialhome](https://socialhome.network/)
+- [x] [XMPP](https://xmpp.org/)
+- [x] [Zap](https://zotlabs.com/zap/) 
+
+- *1 It doesn't have a public API
+- *2 Conflicts with the [API](https://github.com/pump-io/pump.io/blob/master/API.md)
+
+<br>
+<br>
+
+# Similar Projects To Compare To
+
+### Share/Connect/Support Buttons by [distributopia](https://github.com/distributopia) & [lostinlight](https://github.com/lostinlight)
+**GitLab**: https://gitlab.com/distributopia/share-connect-support <br>
+**GitHub**: https://github.com/distributopia/share-connect-support (*mirror*) <br>
+*Description*:
+Embed buttons on your webpage that allow you to share any specified text with any Fediverse instance. 
+> These are social buttons for your personal blog, profile. They can be added to any page, including static websites.
+<br>
 
 
-## Where does it work?
-Incomplete List: Any Mastodon, Pleroma (Soapbox-FE OR Pleroma-FE), Friendica, GNU Social instance (*and many others*) support this feature!
+### sharetomastodon.github.io by [leonekmi](https://github.com/leonekmi) & [skid9000](https://github.com/skid9000) & [clerie](https://github.com/clerie) <br>
+**GitHub**: https://github.com/sharetomastodon/sharetomastodon.github.io <br>
+*Description*:
+Embed buttons on your webpage that allow you to share any specified text with any Mastodon instance. 
+> Advanced Sharer is a tool able to share links to any Mastodon instance. Learn more.
 
-https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg
-https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal_(mono_version).svg
+*Which is a fork of: https://github.com/sharetodiaspora/sharetodiaspora.github.io*
+<br>
+<br>
 
-https://codeberg.org/meztli/fedishare
-https://github.com/distributopia/share-connect-support
-https://sharetomastodon.github.io/about/
+### Fedishare by [meztli](https://codeberg.org/meztli) & [mugcake](https://gitlab.com/mugcake)
+**Codeberg**: https://codeberg.org/meztli/fedishare <br>
+**GitLab**:   https://gitlab.com/mugcake/fedishare (*depricated*) <br>
+*Description*: A browser addon that, when pressed, allows you to share the current tab-link on a Fediverse instance of your choice. 
+> Share the current tab on the fediverse.
+
+<br>
+<br>
+<br>
 
 
-Instructions
-===
+# How To Embed a Fediverse Share Button
+
 
 To embed without external resources:
 
@@ -96,6 +159,8 @@ Small:
 ```
 <div class="mast-share mast-share-sm"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2261.076954mm%22%20height%3D%2265.47831mm%22%20viewBox%3D%220%200%20216.4144%20232.00976%22%3E%3Cpath%20d%3D%22M211.80734%20139.0875c-3.18125%2016.36625-28.4925%2034.2775-57.5625%2037.74875-15.15875%201.80875-30.08375%203.47125-45.99875%202.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125%200%202.53375.15625%204.94625.46875%207.2025%203.38375%2025.68625%2025.47%2027.225%2046.39125%2027.9425%2021.11625.7225%2039.91875-5.20625%2039.91875-5.20625l.8675%2019.09s-14.77%207.93125-41.08125%209.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23234%20213.82%201.40609%20165.31125.20859%20116.09125c-.365-14.61375-.14-28.39375-.14-39.91875%200-50.33%2032.97625-65.0825%2032.97625-65.0825C49.67234%203.45375%2078.20359.2425%20107.86484%200h.72875c29.66125.2425%2058.21125%203.45375%2074.8375%2011.09%200%200%2032.975%2014.7525%2032.975%2065.0825%200%200%20.41375%2037.13375-4.59875%2062.915%22%20fill%3D%22%233088d4%22%2F%3E%3Cpath%20d%3D%22M177.50984%2080.077v60.94125h-24.14375v-59.15c0-12.46875-5.24625-18.7975-15.74-18.7975-11.6025%200-17.4175%207.5075-17.4175%2022.3525v32.37625H96.20734V85.42325c0-14.845-5.81625-22.3525-17.41875-22.3525-10.49375%200-15.74%206.32875-15.74%2018.7975v59.15H38.90484V80.077c0-12.455%203.17125-22.3525%209.54125-29.675%206.56875-7.3225%2015.17125-11.07625%2025.85-11.07625%2012.355%200%2021.71125%204.74875%2027.8975%2014.2475l6.01375%2010.08125%206.015-10.08125c6.185-9.49875%2015.54125-14.2475%2027.8975-14.2475%2010.6775%200%2019.28%203.75375%2025.85%2011.07625%206.36875%207.3225%209.54%2017.22%209.54%2029.675%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E%0A"> </label> </div> <script>Array.prototype.forEach||(Array.prototype.forEach=function(r){var o,t;if(null==this)throw new TypeError("this is null or not defined");var n=Object(this),e=n.length>>>0;if("function"!=typeof r)throw new TypeError(r+" is not a function");for(arguments.length>1&&(o=arguments[1]),t=0;t<e;){var i;t in n&&(i=n[t],r.call(o,i,t,n)),t++}});document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".mast-share").forEach(function(e,t){e.querySelector(".mast-check-toggle").id="mast-check-toggle-"+t,e.querySelector(".mast-check-label").htmlFor="mast-check-toggle-"+t,e.querySelector(".mast-share-button").addEventListener("click",function(t){var a=new RegExp("^(?:(?:https?|ftp)://)?(?:\\S+(?::\\S*)?@|\\d{1,3}(?:\\.\\d{1,3}){3}|(?:(?:[a-z\\d\\u00a1-\\uffff]+-?)*[a-z\\d\\u00a1-\\uffff]+)(?:\\.(?:[a-z\\d\\u00a1-\\uffff]+-?)*[a-z\\d\\u00a1-\\uffff]+)*(?:\\.[a-z\\u00a1-\\uffff]{2,6}))(?::\\d+)?(?:[^\\s]*)?$","i"),n=e.querySelector('input[name="mast-instance-input"]');if(a.test(n.value)){var o=`http://${n.value.replace(/(^\w+:|^)\/\//,"")}/share?text=${encodeURIComponent(document.title)} ${encodeURIComponent(location.href)}`;window.open(o,"new","toolbar=no,location=no,status=yes,resizable=yes,scrollbars=yes,height=600,width=400")}else n.classList.add("invalid"),setTimeout(function(){n.classList.remove("invalid")},300)}),e.addEventListener("mouseleave",function(t){e.querySelector(".mast-check-toggle").checked=!1})})});</script> <style>.mast-check-toggle{height:0;width:0;padding:0;margin:0;visibility:hidden;display:none}.mast-check-toggle:checked+.mast-instance{display:block!important}.mast-check-toggle:not(:checked)+.mast-instance{display:none}.mast-share.active{padding-bottom:10px}.mast-share-lg .mast-top{cursor:pointer;position:absolute;width:142px;top:0;left:0;padding:4px 8px;z-index:1}.mast-share-md .mast-top,.mast-share-sm .mast-top{cursor:pointer;position:absolute;width:18px;height:15px;top:0;left:0;padding:4px 8px;z-index:1}.mast-share-lg,.mast-share-md,.mast-share-sm{color:#fff;display:inline-block;height:23px;background-color:#292D37;border-radius:3px;position:relative}.mast-share-lg{width:158px}.mast-share-md{width:92px}.mast-share-sm{width:34px}.mast-share-md .mast-instance,.mast-share-sm .mast-instance{border-radius:0 3px 3px;z-index:0}.mast-instance{background-color:#292D37;padding:8px;position:absolute;top:20px;left:0;margin:0 auto;border-radius:0 0 3px 3px}.mast-share span{vertical-align:top;font-family:sans-serif;font-weight:700;font-size:14px}.mast-share img{max-height:19px;margin-top:1px}.mast-instance input[name="mast-instance-input"]{background-color:#00000000;border:none;color:#fff;border-bottom:2px solid #3087D5;font-size:14px;font-weight:700;max-width:130px}.mast-instance input[name="mast-instance-input"][class="invalid"]{border-bottom:2px solid red;animation-name:shake;animation-duration:.1s;animation-timing-function:ease-in-out;animation-iteration-count:infinite}@-webkit-keyframes shake{41%,8%{-webkit-transform:translateX(-10px)}25%,58%{-webkit-transform:translateX(10px)}75%{-webkit-transform:translateX(-5px)}92%{-webkit-transform:translateX(5px)}0%,100%{-webkit-transform:translateX(0)}}.mast-share input::placeholder{color:#C7C7CD}.mast-share input:focus{outline:0}.mast-share button{background-color:#00000000;color:#fff;border:none;font-size:14px;font-weight:700;padding:0;margin:8px 0 0;cursor:pointer}.mast-share button:hover{color:#3087d5}</style>
 ```
+
+<br>
 
 To embed with external resources (hosted on GitHub Pages):
 
@@ -115,6 +180,10 @@ Small:
 <div class="mast-share mast-share-sm"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <img src="logotype-short.svg"> </label> </div> <script src="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.js"></script> <link rel="stylesheet" href="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.css">
 ```
 
+<br>
+<br>
+<br>
+<br>
 
 # Logo-Gallery
 The original (*proposed*) [Fediverse-Logos](https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg) were made by [Eukombos](https://commons.wikimedia.org/wiki/User:Eukombos) and are licensed under the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/deed.en). 
@@ -127,9 +196,13 @@ I have to inform you that neither I, nor the company Uden AI, are endorsed by Eu
 
 ## Newly Made Fediverse Logos by Erik Uden
 
+<br>
+<br>
+<br>
+<br>
 
 
-# License
+# Licenses
 
 ## AGPLv3.0
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License v3 or [AGPLv3.0](https://github.com/Uden-AI/fediverse-share/blob/master/LICENSE) [as published](http://www.fsf.org/licensing/licenses/agpl-3.0.html) by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -137,6 +210,10 @@ This program is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
 
 You should have received a copy of the GNU Affero General Public License along with this program. If not, see https://www.gnu.org/licenses/.
+
+<br>
+<br>
+<br>
 
 ## CC-BY-SA 4.0
 The Fediverse-Logos that can be found in this repository in the directories "[Logos/Large](https://github.com/Uden-AI/fediverse-share/tree/master/Logos/Large)" and "[Logos/Small](https://github.com/Uden-AI/fediverse-share/tree/master/Logos/Small)" are licensed under the Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)) License. The following is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
@@ -164,6 +241,9 @@ You do not have to comply with the license for elements of the material in the p
 
 No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material. 
 
+<br>
+<br>
+<br>
 
 ## CC0
 The Fediverse-Logos that can be found in this repository in the directories "[Logos/- Original -](https://github.com/Uden-AI/fediverse-share/tree/master/Logos/-%20Original%20-)" were made by [Eukombos](https://commons.wikimedia.org/wiki/User:Eukombos) and are licensed under the Creative Commons [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/deed.en). The following is a human-readable summary of the [Legal Code (read the full text)](https://creativecommons.org/publicdomain/zero/1.0/legalcode). 
