@@ -17,8 +17,23 @@
 </p>
 
 
+## This repo hosts:
+
+- 48+ Newly Made Fediverse-Logos Free for Anyone To Use
+(*that can be used for the Fediverse-Share buttons*)
+- An Explanation of What Fediverse-Share Is:
+- A List of Similar Projects To Compare To
+- A List of Fediverse Software With Which Fediverse-Share Works
+- Instructions For How To Embed a Fediverse-Share Button
+  - [Embed Without External Resources](#)
+  - [Embed With External Resources (GitHub Pages)](#)
+  - [Download JS/CSS and Keep as Separate Files](#)
+
+
+
+
 ## What is Fediverse Share? How does it Work?
-It is an HTML+CSS+JS-Button that can be put on any webpage that any user can click on, enter the Fediverse instance of their choice, then be teleported to that instance with text specified by YOU. Essentially the share button for Twitter but for the whole Fediverse! You can copy the code that is found inside of this repository, modify the text you want to be posted, such as:
+It is an HTML+CSS+JS-Button that can be put on **any** webpage that any user can click on, enter the Fediverse instance of their choice, then be teleported to that instance with text specified by YOU. Essentially the share button for Twitter but for the whole Fediverse! You can copy the code that is found inside of this repository, modify the text you want to be posted, such as:
 > *Check out The Internet Portal, a website that randomly takes you to one out of over 200 million websites on the internet! TheInternetPortal.net #theinternetportal*
 <br>
 
@@ -26,6 +41,17 @@ Then, if a user presses the button, enters the domain of an instance they are lo
 
 ![](screenshot-in-pleroma-soapbox-full.png)
 *Example of a Pleroma+Soapbox-FE Instance of this button sharing the specified text. Instance displayed: social.uden.ai*
+
+<br>
+Share buttons for the Fediverse that work on static pages. The page title and URL are pulled from `document.title` and `location.href`, copying the behavior of www.addtoany.com. We've included three options: the first for embedding all additional CSS/JS in the one piece of code that you can copy (for security reasons), the second for linking to the JS/CSS hosted here via [GitHub Pages](https://pages.github.com/), and the third for simply downloading the CSS/JS from this repository and putting it in your websites root and linking to it via the `<link rel="stylesheet" href="fedi-share.css">` tag, to make it easily modifiable in the future! fedi-share.min.css, as well as fedi-share.min.js were created using the [CSS Minifier](https://cssminifier.org/).
+
+Contributions are welcome!
+
+![](screenshot.png)
+
+Demo: https://uden.ai/fediverse-share/
+
+
 
 ## Where does it work?
 Incomplete List: Any Mastodon, Pleroma (Soapbox-FE OR Pleroma-FE), Friendica, GNU Social instance (*and many others*) support this feature!
@@ -37,14 +63,6 @@ https://codeberg.org/meztli/fedishare
 https://github.com/distributopia/share-connect-support
 https://sharetomastodon.github.io/about/
 
-
-Share buttons for Mastodon that work on static pages. The page title and URL are pulled from `document.title` and `location.href`, copying the behavior of www.addtoany.com. I've included two options: one for embedding all additional JS/CSS (for security reasons), and another for linking to the JS/CSS hosted here via https://rawgit.com.
-
-Contributions are welcome!
-
-![](screenshot.png)
-
-Demo: https://uden.ai/fediverse-share/
 
 Instructions
 ===
