@@ -1,0 +1,246 @@
+/*  html tags styles*/
+
+body {
+    font-family: Ubuntu, Arial, sans-serif;
+    --txtarea-height: 100px;
+    background-repeat: round;
+}
+
+a {
+    color: steelblue;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+p {
+    margin: 1.2rem 0;
+}
+
+textarea,.preview-img-wrapper {
+    width: 100%;
+    min-width: 30em;
+    height: var(--txtarea-height);
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: monospace;
+    resize: none;
+}
+textarea::placeholder {
+    font-family: Ubuntu;
+    font-size: 3vw;
+    text-align: center;
+    line-height: calc(var(--txtarea-height) - 2px);
+}
+
+label.txtar {
+    font-size: 1.3em;
+    margin: 0 0 0.5em 0;
+    display: block;
+}
+
+code {
+    padding: 0 3px;
+    background: #eee;
+    border-radius: 5px;
+    text-shadow: 1px 1px 0 white;
+    font: 14px/1.4 monospace;
+    color: #333;
+}
+
+code i {
+    font-style: italic;
+    color: black;
+}
+
+/*  About this pen dropdown */
+dl,
+dd,
+dt {
+    margin: 0;
+}
+dl {
+    text-align: right;
+}
+dt {
+    border-bottom: 1px dashed;
+    display: inline-block;
+    line-height: 1;
+    color: steelblue;
+    cursor: pointer;
+}
+dt:after {
+    content: "";
+    display: inline-block;
+    border: 0 solid transparent;
+    border-width: 8px 4px 0;
+    border-top-color: currentColor;
+    border-bottom-color: currentColor;
+    margin-left: 5px;
+}
+.opened:after {
+    border-width: 0 4px 8px;
+}
+dd {
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+.visuallyhidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*  General display settings */
+.wrapper {
+    width: 70%;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1em;
+    margin: 4em auto;
+}
+
+.header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.langs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+    list-style-type: none;
+}
+.langs__item {
+    display: inline-block;
+}
+.langs__link--current {
+    color: #000;
+}
+
+
+
+.options {
+    position: relative;
+}
+
+.options__middle-word {
+    vertical-align: middle;
+    color: #aaa;
+}
+
+.options__text {
+    display: inline-block;
+    border-bottom: 1px dashed;
+    color: steelblue;
+    cursor: pointer;
+}
+.options__input:checked + .options__text {
+    border: 0;
+    color: inherit;
+    cursor: default;
+}
+
+.expander {
+    position: relative;
+    z-index: 2;
+}
+
+.expanded {
+    position: absolute;
+    margin-top: 1em;
+    right: 10%;
+    left: 10%;
+    padding: 2rem 1.5rem 1rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+.actionButtons {
+    text-align: end;
+}
+/* Copy to the clipboard "button" */
+.cpclip{
+    display: contents;
+    color: steelblue;
+    font-size: smaller;
+    cursor: grabbing;
+}
+#downloadlink{
+    text-decoration: none;
+    font-size: smaller;
+    cursor: not-allowed;
+}
+main {
+    display: flex;
+    column-gap: 2em; 
+    row-gap: 2em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    flex-shrink: 1;
+    flex-basis: 45%;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+
+.preview-img-wrapper {
+    height: calc(var(--txtarea-height) * 3);
+    border: 1px dashed rgba(0, 0, 0, 0.25);
+}
+.preview img {
+    height: calc(100% - 2px);
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.preview img::after {
+    content: "\f127  Wrong SVG Code";
+    display: block;
+    font-size: 3vw;
+    font-family: FontAwesome;
+    text-align: center;
+    background-color: #a82929;
+    color: white;
+    line-height: calc(var(--txtarea-height) - 2px);
+}
+
+/* color picker popup */
+.colorpicker {
+}
+.colorpicker label {
+    vertical-align: 0.5em;
+    padding-right: 0.5em;
+}

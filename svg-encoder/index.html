@@ -1,0 +1,118 @@
+<html>
+<meta charset="UTF-8">
+<head>
+    <title>SVG ↔ URL Encoder/Decoder</title>
+    <link rel="stylesheet" href="svg-encoder-style.css">
+		<!-- FORK ME ON GITHUB SECTION -->
+<div class="github-ribbon" style="position: absolute; right: 0px; top: 0px; width: 150px; height: 150px; overflow: hidden; z-index: 99999;"><a target="_blank" style="display: inline-block; width: 200px; overflow: hidden; padding: 6px 0px; text-align: center; transform: rotate(45deg); text-decoration: none; color: rgb(255, 255, 255); position: inherit; top: 45px; right: -40px; font: 700 13px &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0px; background-color: #6633ff; background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));" href="https://github.com/Uden-AI/fediverse-share.git">Fork me on GitHub</a></div>
+	<!-- FORK ME ON GITHUB SECTION -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>SVG ↔ URL Encoder/Decoder</h1>
+            <dl class="about">
+                <dt class="expander">About tool</dt>
+                <dd class="expanded hidden">
+                    <p>We can use SVG in CSS via data URI, but without encoding it works only in Webkit based browsers. If encode SVG using <code>encodeURIComponent()</code> it will work everywhere.</p>
+
+                    <p>SVG must have attribute <strong>xmlns</strong> like this: <code>xmlns='http://www.w3.org/2000/svg'</code>. If it doesn't exist, it will be added automagically.</p>
+
+                    <p>Encoded SVG can be used in <code>background-image</code>, <code>border-image</code> and <code>mask-image</code> (<a href="https://codepen.io/sanbec/pen/XWVovge" target=_blank>demo</a>), i.e.</p>
+                    <p> <code>body {
+                            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' width='80' height='40'%3e%3ccircle cx='20' cy='20' style='fill:none;stroke:%23000;stroke-width:8' r='16'/%3e%3c/svg%3e");
+                            }</code>.</p>
+				    
+					<p>This tool was made by <a href="https://dinerologo.com/" target="_blank" rel="noopener noreferrer">Santiago Becerra</a> and was originally published on this Codepen: <a href="https://codepen.io/sanbec/pen/yLpZgJw" target="_blank" rel="noopener noreferrer">https://codepen.io/sanbec/pen/yLpZgJw</a></p>
+					
+                </dd>
+            </dl>
+
+        </header>
+        <main>
+            <div class="containers">
+                <div class="container container--plainsvg">
+                    <label for="plainsvg" class="txtar">Insert your SVG code or<br>Take your decoded SVG</label>
+                    <div class="actionButtons"><a download="decoded.svg" id="downloadlink" >Download</a><br>
+                    <button id="copy-plainsvg" class="cpclip">Copy to clipboard</button></div>
+                    <textarea name="plainsvg" id="plainsvg" spellcheck="false" placeholder="Drop a SVG file here"></textarea>
+                </div>
+
+                <div class="container container--encodedsvg">
+                    <label for="encodedsvg" class="txtar">Take encoded SVG or<br>Insert to decode</label>
+                    <button id="copy-encodedsvg" class="cpclip">Copy to clipboard</button>
+                    <textarea name="encodedsvg" id="encodedsvg" spellcheck="false"></textarea>
+                </div>
+                <div class="container container--result-css">
+                    <label for="result-css" class="txtar">Take ready for CSS:</label>
+                    <button id="copy-resultcss" class="cpclip">Copy to clipboard</button>
+                    <textarea name="result-css" id="result-css" spellcheck="false" readonly></textarea>
+                </div>
+            </div>
+            <div class="containers">
+                <div class="options">
+                    External quotes:
+                    <label class="options__label">
+                        <input type="radio" value="single" name="quotes" class="options__input visuallyhidden">
+                        <span class="options__text">'single'</span>
+                    </label>
+
+                    <span class="options__middle-word">/</span>
+
+                    <label class="options__label">
+                        <input type="radio" value="double" name="quotes" class="options__input visuallyhidden" checked>
+                        <span class="options__text">"double"</span>
+                    </label>
+                </div>
+                <span class="demo">Demo:
+                    <button id="fedi-logo-simplified" title="Fedi Logo Simplified" class="btn-xs">1</button>
+                    <button id="use" title="use" class="btn-xs">2</button>
+                    <button id="animate" title="animate" class="btn-xs" title="only works in some browsers e.g. chrome">3</button>
+                    <button id="trans" title="trans" class="btn-xs">4</button>
+                    <button id="zigzag" title="zigzag" class="btn-xs">5</button>
+                    <button id="colorcircles" title="colorcircles" class="btn-xs">6</button>                 </span>
+                <div class="colorpicker">
+                    <label for="bgcolor">Select Background Color:</label>
+                    <input type="color" value="#fff" id="bgcolor" />
+                </div>
+                <div class="preview">
+                    <label for="preview-img-wrapper" class="txtar">Preview</label>
+                    <div class="preview-img-wrapper">
+                        <img id="preview-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E" alt=" " />
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+		
+		
+		
+		
+		
+    </div>
+	
+	    <!-- GNU+Libre Better Free Open FOSSium Droidium Federated++ (Self-Hosted) Waterfoxium + Whoogle + Forkium -->
+	<div align="center">
+		<small>
+		<a href="https://github.com/Uden-AI/fediverse-share" target="_blank" rel="noopener noreferrer">This Code</a> is Licensed Under the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noopener noreferrer"><b>GNU Affero General Public License v3.0</b></a>
+		<br>
+		
+        <!--
+		<script>document.write(new Date().getFullYear());</script>
+		<noscript>
+		2022
+		</noscript>
+		-->
+		
+		<p style="margin-top: 0px; margin-bottom: 0px" >Made by
+		<a href="https://dinerologo.com/" target="_blank" rel="noopener noreferrer">Santiago Becerra</a> & <a href="https://erikuden.com/" target="_blank" rel="noopener noreferrer">Erik Uden</a>, Maintained with 💗 by <a href="https://uden.ai/" target="_blank" rel="noopener noreferrer">Uden AI</a></p>
+	    </small>
+	</div>
+	<!-- GNU+Libre Better Free Open FOSSium Droidium Federated++ (Self-Hosted) Waterfoxium + Whoogle + Forkium -->
+	
+  </body>
+  <script src="svg-encoder.js"></script>
+</html>
