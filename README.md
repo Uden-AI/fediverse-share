@@ -179,11 +179,11 @@ These Large/Medium/Small examples always only use the same logo (`logotype-full-
 
 <p align="center">
     <a href="https://uden.ai/fediverse-share/buttons/button-3-large.html" target="_blank" rel="noopener noreferrer" alt="Example of a Large Button Opening and Closing">
-        <img src="./buttons/button-large.GIF" height="200" /></a>
+        <img src="./buttons/button-large.GIF" height="190" /></a>
     <a href="https://uden.ai/fediverse-share/buttons/button-3-medium.html" target="_blank" rel="noopener noreferrer" alt="Example of a Medium Button Opening and Closing">
-        <img src="./buttons/button-medium.GIF" height="200" /></a>
+        <img src="./buttons/button-medium.GIF" height="190" /></a>
     <a href="https://uden.ai/fediverse-share/buttons/button-3-small.html" target="_blank" rel="noopener noreferrer" alt="Example of a Small Button Opening and Closing">
-        <img src="./buttons/button-small.GIF" height="200" /></a>
+        <img src="./buttons/button-small.GIF" height="190" /></a>
 	<br>
 	<b>Click them to try out for yourself!</b>
 </p>
