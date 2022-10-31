@@ -227,7 +227,7 @@ Advantages/Caveats:
 - Most Secure
 - Slowest to load (*load speed depends on your own webhost*)
 
-NOTE: The load speed mainly doesn't matter as the overall filesize difference is two or three kilobytes. Unless you serve millions of clients, this will not matter. The main difference is how your website is organized and how comprehensible it is for other people to read.
+NOTE: The load speed mainly doesn't matter as the overall filesize difference is two or three kilobytes. Unless you serve millions of clients, this will not matter. The main difference is how your website is organized and how comprehensible the source code is for other people to read.
 
 
 ### Large (coming soon):
