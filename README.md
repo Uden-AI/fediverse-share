@@ -172,6 +172,7 @@ This will be able to turn any SVG file into the necessary encoded / CSS format w
 - Most Secure
 - Most Reliable
 - May Be Slower (*load speed depends on your own webhost*)
+- All In One Solution
 
 ### Large (coming soon):
 ```
@@ -198,6 +199,7 @@ This will be able to turn any SVG file into the necessary encoded / CSS format w
 - Not Anonymous (*Microsoft/GitHub will know the IP address of all the people who visit your site*)
 - Semi-Reliable (*If Microsoft/GitHub Servers are ever down, your button will not work*)
 - Very Fast / Fastest to Load (*files are served through an incredibly fast Microsoft CDN which means a lower load for your webserver*)
+- All In One Solution
 
 
 ### Large (coming soon):
@@ -226,6 +228,7 @@ Advantages/Caveats:
 - Can be easily modified (*not minified CSS/JS*)
 - Most Secure
 - Slowest to load (*load speed depends on your own webhost*)
+- Multiple Files
 
 NOTE: The load speed mainly doesn't matter as the overall filesize difference is two or three kilobytes. Unless you serve millions of clients, this will not matter. The main difference is how your website is organized and how comprehensible the source code is for other people to read.
 
