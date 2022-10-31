@@ -1,0 +1,154 @@
+.fedi-check-toggle {
+	height: 0;
+	width: 0;
+	padding: 0;
+	margin: 0;
+	visibility: hidden;
+	display: none;
+}
+
+.fedi-check-toggle:checked + .fedi-instance {
+	display: block !important;
+}
+
+.fedi-check-toggle:not(:checked) + .fedi-instance {
+	display: none;
+}
+
+
+.fedi-share.active {
+	padding-bottom: 10px;
+}
+
+.fedi-share-lg .fedi-top {
+	cursor: pointer;
+	position: absolute;
+	width: 142px;
+	top: 0;
+	left: 0;
+	padding: 4px 8px;
+	z-index: 1;
+}
+
+.fedi-share-sm .fedi-top, .fedi-share-md .fedi-top {
+	cursor: pointer;
+	position: absolute;
+	width: 18px;
+	height: 15px;
+	top: 0;
+	left: 0;
+	padding: 4px 8px;
+	z-index: 1;
+}
+
+.fedi-share-sm, .fedi-share-md, .fedi-share-lg {
+	color: white;
+	display: inline-block;
+	height: 23px;
+	background-color: #292D37;
+	border-radius: 3px;
+	position: relative;
+}
+
+.fedi-share-lg {
+	width: 157px;
+}
+
+.fedi-share-md {
+	width: 93px;
+}
+
+.fedi-share-sm {
+	width: 34px;
+}
+
+
+.fedi-share-sm .fedi-logo {
+	background: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='196.52mm' height='196.52mm' version='1.1' viewBox='0 0 196.52 196.52' xmlns='http://www.w3.org/2000/svg' xmlns:cc='http://creativecommons.org/ns%23' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%3E%3Cmetadata%3E%3Crdf:RDF%3E%3Ccc:Work rdf:about=''%3E%3Cdc:format%3Eimage/svg+xml%3C/dc:format%3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage'/%3E%3Cdc:title/%3E%3C/cc:Work%3E%3C/rdf:RDF%3E%3C/metadata%3E%3Cg transform='translate(6.679 -32.496)' shape-rendering='auto'%3E%3Cpath transform='matrix(.26458 0 0 .26458 -6.679 32.496)' d='m181.13 275.14a68.892 68.892 0 0 1-29.465 29.328l161.76 162.39 38.998-19.764zm213.36 214.19-38.998 19.764 81.963 82.283a68.892 68.892 0 0 1 29.471-29.332z' color='%23000000' color-rendering='auto' dominant-baseline='auto' fill='%23a730b8' image-rendering='auto' solid-color='%23000000' style='font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:%23000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal'/%3E%3Cpath transform='matrix(.26458 0 0 .26458 -6.679 32.496)' d='m581.65 339.39-91.576 46.41 6.752 43.189 103.62-52.514a68.892 68.892 0 0 1-18.791-37.086zm-144.74 73.352-216.53 109.73a68.892 68.892 0 0 1 18.795 37.09l204.48-103.63z' color='%23000000' color-rendering='auto' dominant-baseline='auto' fill='%235496be' image-rendering='auto' solid-color='%23000000' style='font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:%23000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal'/%3E%3Cpath transform='matrix(.26458 0 0 .26458 -6.679 32.496)' d='m367.28 142.44-104.48 203.97 30.848 30.967 110.62-215.96a68.892 68.892 0 0 1-36.99-18.98zm-131.65 257.02-52.922 103.31a68.892 68.892 0 0 1 36.986 18.979l46.781-91.328z' color='%23000000' color-rendering='auto' dominant-baseline='auto' fill='%23ce3d1a' image-rendering='auto' solid-color='%23000000' style='font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:%23000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal'/%3E%3Cpath transform='matrix(.26458 0 0 .26458 -6.679 32.496)' d='m150.77 304.92a68.892 68.892 0 0 1-34.416 7.1953 68.892 68.892 0 0 1-6.6504-0.69531l30.902 197.66a68.892 68.892 0 0 1 34.416-7.1953 68.892 68.892 0 0 1 6.6465 0.69531z' color='%23000000' color-rendering='auto' dominant-baseline='auto' fill='%23d0188f' image-rendering='auto' solid-color='%23000000' style='font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:%23000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal'/%3E%3Cpath transform='matrix(.26458 0 0 .26458 -6.679 32.496)' d='m239.34 560.54a68.892 68.892 0 0 1 0.7207 13.877 68.892 68.892 0 0 1-7.2676 27.18l197.63 31.713a68.892 68.892 0 0 1-0.72266-13.879 68.892 68.892 0 0 1 7.2695-27.178z' color='%23000000' color-rendering='auto' dominant-baseline='auto' fill='%235b36e9' image-rendering='auto' solid-color='%23000000' style='font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:%23000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal'/%3E%3Cpath transform='matrix(.26458 0 0 .26458 -6.679 32.496)' d='m601.13 377.2-91.219 178.08a68.892 68.892 0 0 1 36.994 18.982l91.217-178.08a68.892 68.892 0 0 1-36.992-18.984z' color='%23000000' color-rendering='auto' dominant-baseline='auto' fill='%2330b873' image-rendering='auto' solid-color='%23000000' style='font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:%23000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal'/%3E%3Cpath transform='matrix(.26458 0 0 .26458 -6.679 32.496)' d='m476.72 125.33a68.892 68.892 0 0 1-29.471 29.332l141.27 141.81a68.892 68.892 0 0 1 29.469-29.332z' color='%23000000' color-rendering='auto' dominant-baseline='auto' fill='%23ebe305' image-rendering='auto' solid-color='%23000000' style='font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:%23000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal'/%3E%3Cpath transform='matrix(.26458 0 0 .26458 -6.679 32.496)' d='m347.79 104.63-178.58 90.498a68.892 68.892 0 0 1 18.793 37.086l178.57-90.502a68.892 68.892 0 0 1-18.791-37.082z' color='%23000000' color-rendering='auto' dominant-baseline='auto' fill='%23f47601' image-rendering='auto' solid-color='%23000000' style='font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:%23000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal'/%3E%3Cpath transform='matrix(.26458 0 0 .26458 -6.679 32.496)' d='m446.93 154.83a68.892 68.892 0 0 1-34.982 7.4824 68.892 68.892 0 0 1-6.0293-0.63281l15.818 101.29 43.162 6.9258zm-16 167.03 37.4 239.48a68.892 68.892 0 0 1 33.914-6.9434 68.892 68.892 0 0 1 7.207 0.79101l-35.357-226.41z' color='%23000000' color-rendering='auto' dominant-baseline='auto' fill='%2357c115' image-rendering='auto' solid-color='%23000000' style='font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:%23000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal'/%3E%3Cpath transform='matrix(.26458 0 0 .26458 -6.679 32.496)' d='m188.13 232.97a68.892 68.892 0 0 1 0.75781 14.096 68.892 68.892 0 0 1-7.1602 26.982l101.37 16.281 19.924-38.908zm173.74 27.9-19.926 38.912 239.51 38.467a68.892 68.892 0 0 1-0.69531-13.719 68.892 68.892 0 0 1 7.3496-27.324z' color='%23000000' color-rendering='auto' dominant-baseline='auto' fill='%23dbb210' image-rendering='auto' solid-color='%23000000' style='font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:%23000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal'/%3E%3C/g%3E%3Cg transform='translate(6.679 -32.496)' fill-opacity='.99597'%3E%3Ccircle transform='rotate(3.1178)' cx='106.27' cy='51.536' r='16.571' fill='%23ffca00'/%3E%3Ccircle transform='rotate(3.1178)' cx='171.43' cy='110.19' r='16.571' fill='%2364ff00'/%3E%3Ccircle transform='rotate(3.1178)' cx='135.76' cy='190.28' r='16.571' fill='%2300a3ff'/%3E%3Ccircle transform='rotate(3.1178)' cx='48.559' cy='181.11' r='16.571' fill='%239500ff'/%3E%3Ccircle transform='rotate(3.1178)' cx='30.329' cy='95.367' r='16.571' fill='%23f00'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.fedi-share-sm .fedi-instance, .fedi-share-md .fedi-instance {
+	border-radius: 0 3px 3px 3px;
+	z-index: 0;
+}
+
+.fedi-instance {
+	background-color: #292D37;
+	padding: 8px;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	margin: 0 auto;
+	border-radius: 0 0 3px 3px;
+}
+
+.fedi-share span {
+	vertical-align: top;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 12.5px;
+}
+
+.fedi-share img {
+	max-height: 19px;
+	margin-top: -2px;
+	margin-left: -0.5px;
+}
+
+.fedi-instance input[name="fedi-instance-input"] {
+	background-color: #00000000;
+	border: none;
+	color: white;
+	border-bottom: 2px solid #3087D5;
+	font-size: 14px;
+	font-weight: 700;
+	max-width: 130px;
+}
+
+.fedi-instance input[name="fedi-instance-input"][class="invalid"] {
+	border-bottom: 2px solid red;
+	animation-name: shake;
+	animation-duration: 100ms;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+ @-webkit-keyframes shake {
+    8%, 41% {
+        -webkit-transform: translateX(-10px);
+    }
+    25%, 58% {
+        -webkit-transform: translateX(10px);
+    }
+    75% {
+        -webkit-transform: translateX(-5px);
+    }
+    92% {
+        -webkit-transform: translateX(5px);
+    }
+    0%, 100% {
+        -webkit-transform: translateX(0);
+    }
+}
+
+.fedi-share input::placeholder {
+	color: #C7C7CD;
+}
+
+.fedi-share input:focus {
+	outline: none;
+}
+
+.fedi-share button {
+	background-color: #00000000;
+	color: white;
+	border: none;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 0;
+	margin: 8px 0 0 0;
+	cursor: pointer;
+}
+
+.fedi-share button:hover {
+	color: #3087d5;
+}
