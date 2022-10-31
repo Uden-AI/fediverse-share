@@ -162,9 +162,35 @@ Embed buttons on your webpage that allow you to share any specified text with an
 
 # How To Embed a Fediverse Share Button
 
-These Large/Medium/Small examples always only use the same logo (`logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-simplified.svg`), which is the one used at the top of this repository, or the original Fediverse logo. If you wish to use any of the other logos as seen in the [Logo-Gallery](#logo-gallery) (or any SVG file you can think of), you need to use this built-in tool called SVG Encoder: [https://uden.ai/fediverse-share/svg-encoder/](https://uden.ai/fediverse-share/svg-encoder/). The code for this was kindly gifted by [Santiago Becerra](https://dinerologo.com/) from this [Codepen](https://codepen.io/sanbec/pen/yLpZgJw).
+These Large/Medium/Small examples always only use the same logo (`logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-simplified.svg`), which is the one used at the top of this repository, or the original Fediverse logo. If you wish to use any of the other logos as seen in the [Logo-Gallery](#logo-gallery) (*or any SVG file you can think of*), you need to use this built-in tool called SVG Encoder: [https://uden.ai/fediverse-share/svg-encoder/](https://uden.ai/fediverse-share/svg-encoder/). The code for this was kindly gifted by [Santiago Becerra](https://dinerologo.com/) from this [Codepen](https://codepen.io/sanbec/pen/yLpZgJw). This tool will be able to turn any SVG file into the necessary encoded / CSS format which can be easily inserted into the following buttons. 
 
-This will be able to turn any SVG file into the necessary encoded / CSS format which can be easily inserted into the following buttons. 
+
+
+<p align="center">
+    <a href="https://whyare.you/looking/at/this?lol" alt="What are you doing?"></a>
+    <a href="https://going.through/the#source-code-of" alt="a-small-developer?"></a>
+    <a href="gopher://do.something/better-with-your?time" alt="please!"></a>
+    <br>
+    <b>These are your three buttons!</b>
+</p>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>large</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>medium</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  + &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>small</b>
+
+<p align="center">
+    <a href="https://uden.ai/fediverse-share/buttons/button-3-large.html" target="_blank" rel="noopener noreferrer" alt="Example of a Large Button Opening and Closing">
+        <img src="./buttons/button-large.GIF" height="230" /></a>
+    <a href="https://uden.ai/fediverse-share/buttons/button-3-medium.html" target="_blank" rel="noopener noreferrer" alt="Example of a Medium Button Opening and Closing">
+        <img src="./buttons/button-medium.GIF" height="230" /></a>
+    <a href="https://uden.ai/fediverse-share/buttons/button-3-small.html" target="_blank" rel="noopener noreferrer" alt="Example of a Small Button Opening and Closing">
+        <img src="./buttons/button-small.GIF" height="230" /></a>
+	<br>
+	<b>Click them to try out for yourself!</b>
+</p>
+
+
+<br>
+<br>
 
 ## The First: Embed Without External Resources
 
