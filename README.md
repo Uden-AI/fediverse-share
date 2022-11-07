@@ -258,6 +258,7 @@ NOTE: The load speed mainly doesn't matter as the overall filesize difference is
 
 
 ### Large:
+Try out [HERE](https://uden.ai/fediverse-share/buttons/button-3-large.html)
 ```html
 <!--  Large Fediverse Share -->
 <!--        AGPLv3.0        -->
@@ -280,12 +281,15 @@ NOTE: The load speed mainly doesn't matter as the overall filesize difference is
 <!--  Large Fediverse Share -->
 ```
 
+HTML file of the button [HERE](https://github.com/Uden-AI/fediverse-share/blob/master/buttons/button-3-large.html)
+<br>
 After copying this text and inserting it in an HTML file, put this [CSS-file](https://github.com/Uden-AI/fediverse-share/blob/master/fedi-share.css) into a `/stylesheets` directory and this [JS-file](https://github.com/Uden-AI/fediverse-share/blob/master/fedi-share.js) into a `/javascript` directory created wherever this HTML file is.  
 <br>
 <br>
 
 
-### Medium: 
+### Medium:
+Try out [HERE](https://uden.ai/fediverse-share/buttons/button-3-medium.html)
 ```html
 <!-- Medium Fediverse Share -->
 <!--        AGPLv3.0        -->
@@ -307,11 +311,14 @@ After copying this text and inserting it in an HTML file, put this [CSS-file](ht
 <!-- Medium Fediverse Share -->
 ```
 
+HTML file of the button [HERE](https://github.com/Uden-AI/fediverse-share/blob/master/buttons/button-3-medium.html)
+<br>
 After copying this text and inserting it in an HTML file, put this [CSS-file](https://github.com/Uden-AI/fediverse-share/blob/master/fedi-share.css) into a `/stylesheets` directory and this [JS-file](https://github.com/Uden-AI/fediverse-share/blob/master/fedi-share.js) into a `/javascript` directory created wherever this HTML file is.  
 <br>
 <br>
 
 ### Small:
+Try out [HERE](https://uden.ai/fediverse-share/buttons/button-3-small.html)
 ```html
 <!--  Small Fediverse Share -->
 <!--        AGPLv3.0        -->
@@ -329,6 +336,8 @@ After copying this text and inserting it in an HTML file, put this [CSS-file](ht
 <!--  Small Fediverse Share -->
 ```
 
+HTML file of the button [HERE](https://github.com/Uden-AI/fediverse-share/blob/master/buttons/button-3-small.html)
+<br>
 After copying this text and inserting it in an HTML file, put this [CSS-file](https://github.com/Uden-AI/fediverse-share/blob/master/fedi-share.css) into a `/stylesheets` directory and this [JS-file](https://github.com/Uden-AI/fediverse-share/blob/master/fedi-share.js) into a `/javascript` directory created wherever this HTML file is.  
 <br>
 <br>
