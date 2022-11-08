@@ -46,12 +46,7 @@
 
 
 # What is Fediverse Share?
-Share buttons for the Fediverse that work on static pages. Before you read any further **[TRY IT OUT HERE](https://uden.ai/fediverse-share/)**. It is an HTML+CSS+JS-Button that can be put on **any** webpage that any user can click on, enter the Fediverse instance of their choice, then be teleported to that instance posting text specified by YOU. Essentially the share button for Twitter but for the whole Fediverse! You can copy the code that is found inside of this repository, modify the text you want to be posted, such as:
-> *Check out The Internet Portal, a website that randomly takes you to one out of over 200 million websites on the internet! TheInternetPortal.net #theinternetportal*
-<br>
-
-
-Then, if a user presses this button (*example of a button, the logo exists in this repository in various forms/colors/etc.*)
+Share buttons for the Fediverse that work on static pages. Before you read any further **[TRY IT OUT HERE](https://uden.ai/fediverse-share/)**. It is an HTML+CSS+JS-Button that can be put on **any** webpage that any user can click on, enter the Fediverse instance of their choice, then be teleported to that instance posting text specified by YOU. Essentially the share button for Twitter but for the whole Fediverse! You can copy the code that is found inside of this repository, put it onto your webpage, then, if a user presses this button (*example of a button, the logo exists in this repository in various forms/colors/etc.*):
 <br>
 
 [![](screenshot.png)](https://uden.ai/fediverse-share)
