@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://uden.ai/fediverse-share/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Uden-Ai/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-green-on-top.svg?sanitize=true"
+    <a href="https://fediverse-share.uden.ai" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Uden-Ai/fediverse-share/master/Logos/Large/Color/White-Text/Fedi-Logo-Foreground/Normal/Yellow-On-Top/Green-On-Top/logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-green-on-top.svg?sanitize=true"
         height="130"></a>
 <h1 align="center">Share</h1>
 </p>
@@ -46,10 +46,10 @@
 
 
 # What is Fediverse Share?
-Share buttons for the Fediverse that work on static pages. Before you read any further **[TRY IT OUT HERE](https://uden.ai/fediverse-share/)**. It is an HTML+CSS+JS-Button that can be put on **any** webpage that any user can click on, enter the Fediverse instance of their choice, then be teleported to that instance posting text specified by YOU. Essentially the share button for Twitter but for the whole Fediverse! You can copy the code that is found inside of this repository, put it onto your webpage, then, if a user presses this button (*example of a button, the logo exists in this repository in various forms/colors/etc.*):
+Share buttons for the Fediverse that work on static pages. Before you read any further **[TRY IT OUT HERE](https://fediverse-share.uden.ai)**. It is an HTML+CSS+JS-Button that can be put on **any** webpage that any user can click on, enter the Fediverse instance of their choice, then be teleported to that instance posting text specified by YOU. Essentially the share button for Twitter but for the whole Fediverse! You can copy the code that is found inside of this repository, put it onto your webpage, then, if a user presses this button (*example of a button, the logo exists in this repository in various forms/colors/etc.*):
 <br>
 
-[![](screenshot.png)](https://uden.ai/fediverse-share)
+[![](screenshot.png)](https://fediverse-share.uden.ai)
 
 Then enters the domain of an instance they are logged into (*or can login to*), they will immediately see this:
 <br>
@@ -69,7 +69,7 @@ The page title and URL are pulled from `document.title` and `location.href`, cop
 - [The Second](#the-second-to-embed-with-external-resources) for linking to the JS/CSS hosted here via [GitHub Pages](https://pages.github.com/). The files fedi-share.min.css, as well as fedi-share.min.js were created using the [CSS Minifier](https://cssminifier.org/).
 - [The Third](#the-third-download-the-css-and-js-files-and-host-them-yourself-seperately) for simply downloading the CSS/JS from this repository and putting it in your websites root and linking to it via the `<link rel="stylesheet" href="fedi-share.css">` tag, to make it easily modifiable in the future!
 
-Live-Demo: https://uden.ai/fediverse-share/
+Live-Demo: https://fediverse-share.uden.ai
 
 **Contributions are welcome!**
 
@@ -158,7 +158,7 @@ Embed buttons on your webpage that allow you to share any specified text with an
 
 # How To Embed a Fediverse Share Button
 
-These Large/Medium/Small examples always only use the same logo (`logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-simplified.svg`), which is the one used at the top of this repository, or the original Fediverse logo. If you wish to use any of the other logos as seen in the [Logo-Gallery](#logo-gallery) (*or any SVG file you can think of*), you need to use this built-in tool called SVG Encoder: [https://uden.ai/fediverse-share/svg-encoder/](https://uden.ai/fediverse-share/svg-encoder/). The code for this was kindly gifted by [Santiago Becerra](https://dinerologo.com/) from this [Codepen](https://codepen.io/sanbec/pen/yLpZgJw). This tool will be able to turn any SVG file into the necessary encoded / CSS format which can be easily inserted into the code of the following buttons. 
+These Large/Medium/Small examples always only use the same logo (`logotype-full-large-color-white-text-fedi-logo-foreground-normal-yellow-on-top-simplified.svg`), which is the one used at the top of this repository, or the original Fediverse logo. If you wish to use any of the other logos as seen in the [Logo-Gallery](#logo-gallery) (*or any SVG file you can think of*), you need to use this built-in tool called SVG Encoder: [https://fediverse-share.uden.ai/svg-encoder/](https://fediverse-share.uden.ai/svg-encoder/). The code for this was kindly gifted by [Santiago Becerra](https://dinerologo.com/) from this [Codepen](https://codepen.io/sanbec/pen/yLpZgJw). This tool will be able to turn any SVG file into the necessary encoded / CSS format which can be easily inserted into the code of the following buttons. 
 
 
 
@@ -172,11 +172,11 @@ These Large/Medium/Small examples always only use the same logo (`logotype-full-
 
 
 <p align="center">
-    <a href="https://uden.ai/fediverse-share/buttons/button-3-large.html" target="_blank" rel="noopener noreferrer" alt="Example of a Large Button Opening and Closing">
+    <a href="https://fediverse-share.uden.ai/buttons/button-3-large.html" target="_blank" rel="noopener noreferrer" alt="Example of a Large Button Opening and Closing">
         <img src="./buttons/button-large.GIF" height="190" /></a>
-    <a href="https://uden.ai/fediverse-share/buttons/button-3-medium.html" target="_blank" rel="noopener noreferrer" alt="Example of a Medium Button Opening and Closing">
+    <a href="https://fediverse-share.uden.ai/buttons/button-3-medium.html" target="_blank" rel="noopener noreferrer" alt="Example of a Medium Button Opening and Closing">
         <img src="./buttons/button-medium.GIF" height="190" /></a>
-    <a href="https://uden.ai/fediverse-share/buttons/button-3-small.html" target="_blank" rel="noopener noreferrer" alt="Example of a Small Button Opening and Closing">
+    <a href="https://fediverse-share.uden.ai/buttons/button-3-small.html" target="_blank" rel="noopener noreferrer" alt="Example of a Small Button Opening and Closing">
         <img src="./buttons/button-small.GIF" height="190" /></a>
 	<br>
 	<b>Click them to try out for yourself!</b>
@@ -204,7 +204,7 @@ A tutorial on how to enter your own images into these buttons can be found [HERE
 - All In One Solution
 
 ### Large:
-Try out [HERE](https://uden.ai/fediverse-share/buttons/button-1-large.html)
+Try out [HERE](https://fediverse-share.uden.ai/buttons/button-1-large.html)
 ```html
 <!--  Large Fediverse Share -->
 <!--        AGPLv3.0        -->
@@ -230,7 +230,7 @@ HTML file of the button [HERE](https://github.com/Uden-AI/fediverse-share/blob/m
 <br>
 
 ### Medium:
-Try out [HERE](https://uden.ai/fediverse-share/buttons/button-1-medium.html)
+Try out [HERE](https://fediverse-share.uden.ai/buttons/button-1-medium.html)
 ```html
 <!-- Medium Fediverse Share -->
 <!--        AGPLv3.0        -->
@@ -256,7 +256,7 @@ HTML file of the button [HERE](https://github.com/Uden-AI/fediverse-share/blob/m
 <br>
 
 ### Small:
-Try out [HERE](https://uden.ai/fediverse-share/buttons/button-1-small.html)
+Try out [HERE](https://fediverse-share.uden.ai/buttons/button-1-small.html)
 ```html
 <!--  Small Fediverse Share -->
 <!--        AGPLv3.0        -->
@@ -290,7 +290,7 @@ HTML file of the button [HERE](https://github.com/Uden-AI/fediverse-share/blob/m
 
 
 ### Large:
-Try out [HERE](https://uden.ai/fediverse-share/buttons/button-2-large.html)
+Try out [HERE](https://fediverse-share.uden.ai/buttons/button-2-large.html)
 ```html
 <!--  Large Fediverse Share -->
 <!--        AGPLv3.0        -->
@@ -307,7 +307,7 @@ Try out [HERE](https://uden.ai/fediverse-share/buttons/button-2-large.html)
 		<!-- CC BY-SA 4.0 - Erik Uden -->
 	</label>
 </div>
-<script src="https://uden.ai/fediverse-share/fedi-share.min.js"></script><link rel="stylesheet" href="https://uden.ai/fediverse-share/fedi-share.min.css">
+<script src="https://fediverse-share.uden.ai/fedi-share.min.js"></script><link rel="stylesheet" href="https://fediverse-share.uden.ai/fedi-share.min.css">
 <!--        AGPLv3.0        -->
 <!--  Large Fediverse Share -->
 ```
@@ -315,7 +315,7 @@ HTML file of the button [HERE](https://github.com/Uden-AI/fediverse-share/blob/m
 <br>
 
 ### Medium:
-Try out [HERE](https://uden.ai/fediverse-share/buttons/button-2-medium.html)
+Try out [HERE](https://fediverse-share.uden.ai/buttons/button-2-medium.html)
 ```html
 <!-- Medium Fediverse Share -->
 <!--        AGPLv3.0        -->
@@ -332,7 +332,7 @@ Try out [HERE](https://uden.ai/fediverse-share/buttons/button-2-medium.html)
 		<!-- CC BY-SA 4.0 - Erik Uden -->
 	</label>
 </div>
-<script src="https://uden.ai/fediverse-share/fedi-share.min.js"></script><link rel="stylesheet" href="https://uden.ai/fediverse-share/fedi-share.min.css">
+<script src="https://fediverse-share.uden.ai/fedi-share.min.js"></script><link rel="stylesheet" href="https://fediverse-share.uden.ai/fedi-share.min.css">
 <!--        AGPLv3.0        -->
 <!-- Medium Fediverse Share -->
 ```
@@ -341,7 +341,7 @@ HTML file of the button [HERE](https://github.com/Uden-AI/fediverse-share/blob/m
 
 
 ### Small:
-Try out [HERE](https://uden.ai/fediverse-share/buttons/button-2-small.html)
+Try out [HERE](https://fediverse-share.uden.ai/buttons/button-2-small.html)
 ```html
 <!--  Small Fediverse Share -->
 <!--        AGPLv3.0        -->
@@ -358,7 +358,7 @@ Try out [HERE](https://uden.ai/fediverse-share/buttons/button-2-small.html)
 		<!-- CC0 1.0 Universal Public Domain Dedication by Eukombos -->
 	</label>
 </div>
-<script src="https://uden.ai/fediverse-share/fedi-share.min.js"></script><link rel="stylesheet" href="https://uden.ai/fediverse-share/fedi-share.min.css">
+<script src="https://fediverse-share.uden.ai/fedi-share.min.js"></script><link rel="stylesheet" href="https://fediverse-share.uden.ai/fedi-share.min.css">
 <!--        AGPLv3.0        -->
 <!--  Small Fediverse Share -->
 ```
@@ -380,7 +380,7 @@ NOTE: The load speed mainly doesn't matter as the overall filesize difference is
 
 
 ### Large:
-Try out [HERE](https://uden.ai/fediverse-share/buttons/button-3-large.html)
+Try out [HERE](https://fediverse-share.uden.ai/buttons/button-3-large.html)
 ```html
 <!--  Large Fediverse Share -->
 <!--        AGPLv3.0        -->
@@ -411,7 +411,7 @@ After copying this text and inserting it in an HTML file, put this [CSS-file](ht
 
 
 ### Medium:
-Try out [HERE](https://uden.ai/fediverse-share/buttons/button-3-medium.html)
+Try out [HERE](https://fediverse-share.uden.ai/buttons/button-3-medium.html)
 ```html
 <!-- Medium Fediverse Share -->
 <!--        AGPLv3.0        -->
@@ -440,7 +440,7 @@ After copying this text and inserting it in an HTML file, put this [CSS-file](ht
 <br>
 
 ### Small:
-Try out [HERE](https://uden.ai/fediverse-share/buttons/button-3-small.html)
+Try out [HERE](https://fediverse-share.uden.ai/buttons/button-3-small.html)
 ```html
 <!--  Small Fediverse Share -->
 <!--        AGPLv3.0        -->
@@ -468,7 +468,7 @@ After copying this text and inserting it in an HTML file, put this [CSS-file](ht
 
 ## How To Enter Your Own Image Into The Buttons
 
-**1.** Go to our built-in [SVG-Encoder](https://uden.ai/fediverse-share/svg-encoder/).
+**1.** Go to our built-in [SVG-Encoder](https://fediverse-share.uden.ai/svg-encoder/).
 
 **2.** Insert your SVG code or drop an SVG file into the box.
 	
